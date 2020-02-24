@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 h1 {
   font-family: 'Abuget';
   font-size: 4em;
@@ -16,7 +15,7 @@ h1 {
   height: 100vh;
 }
 body {
-  background-color: aquamarine;
+  background-color: lightgoldenrodyellow;
 }
 .image {
   position: relative;
