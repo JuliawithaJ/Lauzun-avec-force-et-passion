@@ -69,6 +69,6 @@ for (var i = 0; i < popups.length; i++) {
   let element = popups.item(i);
   element.addEventListener('click', function() {
     remove_show();
-    element.children[0].classList.remove('show');
+    element.children[0].classList.add('show');
   });
 }
