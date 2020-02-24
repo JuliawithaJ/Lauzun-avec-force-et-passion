@@ -1,7 +1,3 @@
-function myFunction() {
-  var popup = document.getElementById('myPopup');
-  popup.classList.toggle('show');
-}
 function evelyne() {
   var popup = document.getElementById('evelyne');
   popup.classList.toggle('show');
