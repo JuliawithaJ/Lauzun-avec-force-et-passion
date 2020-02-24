@@ -6,6 +6,7 @@ h1 {
   font-family: 'Abuget';
   font-size: 4em;
   color: #353e99;
+  text-align: center;
 }
 .image {
   background-image: url('https://res.cloudinary.com/dsd5xgbdi/image/upload/c_scale,w_1400/v1582490932/Lauzun-map_lhvsoa.png');
