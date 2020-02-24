@@ -8,13 +8,11 @@ let popups = document.getElementsByClassName('popup');
 for (var i = 0; i < popups.length; i++) {
   let element = popups.item(i);
   element.addEventListener('click', function() {
+    let classes = element.children[0].classList;
+    let show = classes.contains('show');
     remove_show();
-    element.children[0].classList.add('show');
+    if (!show) {
+      classes.add('show');
+    }
   });
 }
-let closepopup = document.getElementsByClassName('popup');
-window.onclick = function(event) {
-  if (event.target == closepopup) {
-    closepopup.style.display = 'none';
-  }
-};
