@@ -12,10 +12,10 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 100vh;
+  height: 1440px;
 }
 body {
-  background-color: lightgoldenrodyellow;
+  background-color: lightgrey;
 }
 .image {
   position: relative;
