@@ -111,6 +111,40 @@ body {
   top: 120px;
   z-index: 999;
 }
+.habib {
+  left: -40px;
+}
+.chantal {
+  left: -190px;
+}
+.jeanpaul {
+  left: -230px;
+}
+.tina {
+  top: -150px !important;
+  left: -450px;
+}
+.mariepierre {
+  top: -160px !important;
+  left: -250px;
+}
+.corinne {
+  top: -270px !important;
+  left: -80px;
+}
+.jeanpierre {
+  top: -195px !important;
+}
+.patrick {
+  top: -108px !important;
+}
+.lynda {
+  top: -125px !important;
+}
+.christine {
+  top: -40px !important;
+  left: 100px;
+}
 /* Toggle this class - hide and show the popup */
 .popup .show {
   visibility: visible;
